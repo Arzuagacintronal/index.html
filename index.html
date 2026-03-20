@@ -1,10 +1,109 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Test</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alaik Media</title>
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body style="background:black; color:white; font-family:Arial; text-align:center; padding:80px;">
-  <h1>NEW VERSION IS LIVE</h1>
-  <p>If you see this, GitHub updated correctly.</p>
+
+<body class="bg-[#f7f3ee] text-[#111] font-sans">
+
+<!-- HERO -->
+<section class="max-w-6xl mx-auto px-6 py-28 text-center">
+  <h1 class="text-5xl md:text-7xl font-semibold leading-tight">
+    Alaik Media Management
+  </h1>
+
+  <p class="mt-6 text-lg text-black/70 max-w-2xl mx-auto">
+    Luxury websites & social media systems for businesses that want to look premium and attract more clients.
+  </p>
+
+  <div class="mt-10 flex justify-center gap-4">
+    <a href="#pricing" class="bg-black text-white px-6 py-3 rounded-full">
+      View Pricing
+    </a>
+    <a href="#contact" class="border border-black px-6 py-3 rounded-full">
+      Start Project
+    </a>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section class="max-w-6xl mx-auto px-6 py-20">
+  <h2 class="text-3xl font-semibold text-center mb-12">Services</h2>
+
+  <div class="grid md:grid-cols-3 gap-6">
+    <div class="bg-white p-8 rounded-2xl shadow">
+      <h3 class="text-xl font-semibold">Website Design</h3>
+      <p class="mt-4 text-black/70">Modern, clean, high-converting websites.</p>
+    </div>
+
+    <div class="bg-white p-8 rounded-2xl shadow">
+      <h3 class="text-xl font-semibold">Social Media Management</h3>
+      <p class="mt-4 text-black/70">$37/month – consistent content & brand growth.</p>
+    </div>
+
+    <div class="bg-white p-8 rounded-2xl shadow">
+      <h3 class="text-xl font-semibold">Premium Services</h3>
+      <p class="mt-4 text-black/70">$699 – advanced design, strategy & upgrades.</p>
+    </div>
+  </div>
+</section>
+
+<!-- PRICING -->
+<section id="pricing" class="max-w-6xl mx-auto px-6 py-20">
+  <h2 class="text-3xl font-semibold text-center mb-12">Pricing</h2>
+
+  <div class="grid md:grid-cols-2 gap-6">
+
+    <div class="bg-white p-8 rounded-2xl shadow">
+      <h3 class="text-3xl font-semibold">$397</h3>
+      <p class="mt-2">Website Package</p>
+
+      <ul class="mt-4 space-y-2 text-black/70">
+        <li>• 1–3 pages</li>
+        <li>• Mobile optimized</li>
+        <li>• Contact form included</li>
+      </ul>
+
+      <p class="mt-6 font-semibold">$60/month maintenance</p>
+    </div>
+
+    <div class="bg-black text-white p-8 rounded-2xl shadow">
+      <p class="text-xs uppercase tracking-widest mb-2">Most Popular</p>
+
+      <h3 class="text-3xl font-semibold">$597</h3>
+      <p class="mt-2">Premium Website</p>
+
+      <ul class="mt-4 space-y-2">
+        <li>• Up to 5 pages</li>
+        <li>• Better layout & structure</li>
+        <li>• Booking integration</li>
+      </ul>
+
+      <p class="mt-6 font-semibold">$60/month maintenance</p>
+    </div>
+
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="max-w-6xl mx-auto px-6 py-20">
+  <div class="bg-black text-white p-10 rounded-2xl">
+    <h2 class="text-3xl font-semibold">Let’s Work Together</h2>
+
+    <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST" class="mt-6 grid gap-4">
+      <input type="text" name="name" placeholder="Your name" class="p-4 rounded-xl text-black">
+      <input type="email" name="email" placeholder="Your email" class="p-4 rounded-xl text-black">
+      <textarea name="message" placeholder="Tell us about your project" class="p-4 rounded-xl text-black"></textarea>
+
+      <button class="bg-white text-black p-4 rounded-xl">
+        Submit Inquiry
+      </button>
+    </form>
+  </div>
+</section>
+
 </body>
 </html>
